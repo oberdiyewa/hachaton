@@ -58,7 +58,7 @@ class AboutUs extends StatelessWidget {
           padding:
               const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 70),
           child: Text(
-            """     We  are a new cretive Platform where everyone   can   launch  their dreams by  being  a  part  of  our   great  Community.   In this creative platform 
+            """     We  are a new creative Platform where everyone   can   launch  their dreams by  being  a  part  of  our   great  Community.   In this creative platform 
 we will  have Women  who can work and be in action,   We    are here to make changes   and   get   out 
 of our comfort zone and make a social community impact,.""",
             style: TextStyle(
@@ -80,16 +80,31 @@ of our comfort zone and make a social community impact,.""",
               fontWeight: FontWeight.w700,
             ),
           ),
-        ), // adsdasdasdad
+        ),
         Padding(
           padding: const EdgeInsets.only(left: 14, bottom: 20),
           child: Text(
-            " " " Mobile developer " "",
+            """   Phone number:
+                    +993 61 841535 
+  Gmail Address:        
+           merjen.soyunowaa@gmail.com """,
             style: TextStyle(
               color: Colors.black,
-              fontSize: 13,
-              fontWeight: FontWeight.w600,
+              fontSize: 18,
+              fontWeight: FontWeight.w400,
               fontFamily: 'logo',
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(left: 110, bottom: 10, top: 20),
+          child: Text(
+            "We are Glad to Help You!",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 20,
+              fontFamily: 'logo',
+              fontWeight: FontWeight.w700,
             ),
           ),
         ),
