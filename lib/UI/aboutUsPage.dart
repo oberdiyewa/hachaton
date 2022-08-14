@@ -80,7 +80,7 @@ of our comfort zone and make a social community impact,.""",
               fontWeight: FontWeight.w700,
             ),
           ),
-        ),
+        ), // adsdasdasdad
         Padding(
           padding: const EdgeInsets.only(left: 14, bottom: 20),
           child: Text(
